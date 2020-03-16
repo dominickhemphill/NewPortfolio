@@ -24,3 +24,14 @@ function toggle_onclick($win,$navbar,width){
         $navbar.css({left:'0px'});
     }
 }
+
+var typed = new Typed('#typed',{
+    strings:[
+        'a Web Developer',
+        'a Programmer',
+        'a coffee snob.'
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+});
