@@ -118,7 +118,16 @@ body{
     background-position: 40% 0;
 }
 
-.skill.bars p,.site-content.skill.barsspan{
+.skill.bars p,.site-content.skill.bars span{
     line-height: 10px;
+}
+
+#footer form.row.col input[type="text"],
+#footer form.row.col input[type="email"],
+#footer form.row.col textarea{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid gray;
+    padding: 1.5rem 1rem;
 }
 /*#site-main*/
