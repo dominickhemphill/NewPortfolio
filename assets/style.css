@@ -117,4 +117,8 @@ body{
     background-size: 100%;
     background-position: 40% 0;
 }
+
+.skill.bars p,.site-content.skill.barsspan{
+    line-height: 10px;
+}
 /*#site-main*/

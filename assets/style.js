@@ -17,6 +17,7 @@ $(document).ready(function(e){
 });
 
 
+// Method for menu bar resizing
 function toggle_onclick($win,$navbar,width){
     if($win.width() <= 768){
         $navbar.css({left:`-${width}px`});
@@ -25,7 +26,19 @@ function toggle_onclick($win,$navbar,width){
     }
 }
 
+//Methods for text animation
 var typed = new Typed('#typed',{
+    strings:[
+        'a Web Developer',
+        'a Programmer',
+        'a coffee snob.'
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+});
+
+var typed_2 = new Typed('#typed_2',{
     strings:[
         'a Web Developer',
         'a Programmer',
